@@ -1,0 +1,22 @@
+{
+  "name": "nba-lookup",
+  "version": "1.0.0",
+  "description": "A simple app built on the MERN stack for searching various NBA stats.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpreilly4/nba-lookup.git"
+  },
+  "author": "Tom Reilly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpreilly4/nba-lookup/issues"
+  },
+  "homepage": "https://github.com/tpreilly4/nba-lookup#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
