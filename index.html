@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Node with Express and Mongo</title>
+</head>
+<body>
+  <h1>Enter Players into MongoDB</h1>
+  <form method="post" action="/addplayer">
+    <label>Enter Player Info</label><br>
+    <input type="text" name="playerName" placeholder="Enter player's first name..." required><br>
+    <input type="text" name="lastName" placeholder="Enter player's last name..." required><br>
+    <input type="text" name="team" placeholder="Enter team abbreviation..." required><br>
+    <input type="text" name="number" placeholder="Enter player's number..." required><br>
+    <input type="text" name="position" placeholder="Enter player's position..." required><br>
+    <input type="submit" value="Add Player">
+ </form>
+</body>
+</html>
